@@ -1,0 +1,16 @@
+{
+  "name": "rsc-from-scratch",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
+    "escape-html": "^1.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanitize-filename": "^1.6.3"
+  },
+  "scripts": {
+    "start": "node --watch ./bootstrap.js"
+  }
+}
